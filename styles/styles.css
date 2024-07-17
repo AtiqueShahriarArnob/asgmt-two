@@ -1,3 +1,42 @@
-p{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter {
+    font-family: "Inter", sans-serif;
+    margin:  auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.fitness {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-info {
+    display: flex;
+    gap: 40px;
+}
+nav p{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400; 
+justify-content: center;
+align-items: center;
+}
+.home{
+    width: 82px;
+height: 29px;
+justify-content: center;
+align-items: center;
+border-radius: 46px;
+background: rgb(230, 83, 60);
+text-align: center;
+padding-top: 3px;
 }
