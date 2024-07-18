@@ -287,5 +287,45 @@ margin: auto;
     left: 8%;
     font-size: 17px; 
     color: rgba(255, 255, 255, 0.5);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 66px;
+    margin-bottom: 50px;
 
+}
+.full-footer{ 
+    margin-top: 110px;
+    width: 100%;
+    height: 440px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.footer-info{
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+
+}
+.get-started{
+    color: rgb(255, 255, 255);
+font-size: 27px;
+font-weight: 600;
+}
+.footer-pra{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 17px;
+font-weight: 300;
+}
+.line{
+    width: 1059.5px;
+height: 0;
+margin-bottom: 35px;
+border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.line-info{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 }
