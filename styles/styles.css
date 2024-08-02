@@ -458,72 +458,86 @@ th {
     font-size: 14px;
     font-weight: 400;
 }
-.form-input{
+
+.form-input {
     margin-top: 8px;
     margin-right: 10px;
-width: 240px;
-height: 28px;
-padding:10px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.1);
-border-color: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.6);
-font-size: 16px;
-font-weight: 400;
+    width: 240px;
+    height: 28px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
-#select-1{
+
+#select-1 {
     margin-top: 8px;
     margin-right: 9px;
-width: 264px;
-height: 50px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.1);
-border-color: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.6);
-font-size: 16px;
-font-weight: 400;
+    width: 264px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
-#select{
+
+#select {
     margin-top: 8px;
     margin-right: 9px;
-width: 542px;
-height: 50px;
-border-radius: 8px;
-border-color: rgba(255, 255, 255, 0.1);
-background: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.6);
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 30px;
+    width: 542px;
+    height: 50px;
+    border-radius: 8px;
+    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
-.bar{
+
+.bar {
     color: aliceblue;
     display: none;
 }
-@media screen and (max-width:576px){
-    .navbar{
+
+@media screen and (max-width:576px) {
+    .navbar {
         margin-left: 8px;
     }
-    .bar{
+
+    .bar {
         display: block;
     }
-    .navbar{
+
+    .navbar {
         justify-content: space-between;
     }
-    .nav-info{
+
+    .nav-info {
         display: none;
     }
-    .banner,.habit-pic-part,.run-section{
+
+    .banner,
+    .habit-pic-part,
+    .run-section {
         flex-direction: column;
     }
-    .banner-title{
+
+    .banner-title {
         margin-left: 30px;
     }
-    .blur-part{
+
+    .blur-part {
         margin-left: 20px;
         margin-top: 250px;
     }
-    .blur-part-2{
+
+    .blur-part-2 {
         margin-left: 180px;
         margin-top: 20px;
         font-size: 10px;
@@ -531,63 +545,82 @@ margin-bottom: 30px;
         width: 140px;
         height: 60px;
     }
-    .video-number-2{
+
+    .video-number-2 {
         font-size: 20px;
     }
-    .run-section{
+
+    .run-section {
         width: 100%;
         height: 700px;
         margin-top: 50px;
         margin-bottom: 80px;
     }
-    .calculator-title,.meet-title,.plan-title{
+
+    .calculator-title,
+    .meet-title,
+    .plan-title {
         margin-top: 40px;
     }
-    .calculator-info{
+
+    .calculator-info {
         margin-left: 0px;
     }
-    .calculator-section{
+
+    .calculator-section {
         flex-direction: column;
         width: 100%;
         height: 100%;
     }
-    .cards{
+
+    .cards {
         flex-direction: column;
     }
-    .plan-card{
+
+    .plan-card {
         margin-bottom: 20px;
     }
-    .row-1{
+
+    .row-1 {
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 320px;
         height: 100%;
-        padding: 0px;
+        padding-left: 20px;
     }
-    .line{
+
+    .line {
         width: 100%;
     }
-    .footer{
+
+    .footer {
         flex-direction: column;
         margin-top: 40px;
+        padding-left: 10px;
     }
-    .full-footer{
+
+    .full-footer {
         height: 860px;
         width: 100%;
     }
-    .form-input{
+
+    .form-input {
         width: 145px;
     }
-    #select-1{
+
+    #select-1 {
         width: 170px;
     }
-    #select{
+
+    #select {
         width: 350px;
     }
+
     .plan-card {
         margin-left: 33px;
 
     }
+
     .plan-card:hover {
         margin-left: 30px;
         background-color: rgba(255, 255, 255, 0.3);
@@ -595,34 +628,41 @@ margin-bottom: 30px;
         transform: scale(1.10);
         border: 2px solid tomato;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 4rem;
         margin-left: 9px;
     }
-    .banner-info{
+
+    .banner-info {
         font-size: 1rem;
         margin-left: 9px;
     }
-    .join-btn,.download-btn{
+
+    .join-btn,
+    .download-btn {
         width: 50%;
         font-size: 1rem;
         padding: 0px;
     }
-    .join-btn{
+
+    .join-btn {
         margin-left: 8px;
     }
-    .calculator-section{
+
+    .calculator-section {
         padding-left: 8px;
         height: 820px;
     }
-    .calculator-title,.calculator-info{
+
+    .calculator-title,
+    .calculator-info {
         padding-left: 8px;
     }
-    .run-section{
-        padding:4px;
+
+    .run-section {
+        padding: 4px;
 
     }
 
 }
-
-    
